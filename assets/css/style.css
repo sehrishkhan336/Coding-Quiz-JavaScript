@@ -1,0 +1,104 @@
+body {
+    margin: 1vh 20vh;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+  }
+  
+  .container {
+    background-color: rgb(49, 109, 187);
+    height: 45%;
+    padding: 5%;
+    margin: 10%;
+    width: 45%;
+    position: absolute;
+  }
+  .inner-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(102, 149, 210);
+    color: black;
+    margin: 8%;
+    height: 40vh;
+    position: relative;
+  }
+  
+  .top-bar {
+    margin: -5vh -7vh;
+  }
+  
+  .highscores {
+    float: left;
+    margin: 20px;
+  }
+  
+  .timerstyle {
+    float: right;
+    margin: 20px;
+    font-weight: bold;
+  }
+  
+  main {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  header {
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+  }
+  
+  main p {
+    font-size: 20px;
+    line-height: 2em;
+    padding: 1.5em;
+    display: flex;
+    justify-content: center;  
+  }
+  .quiz-button {
+    font-size: 26px;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: block;
+    margin: 0 auto;
+    max-width: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .quiz-button:hover {
+    background-color: rgb(49, 109, 187);
+    color: black;
+}
+#content button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+.result{
+    color: darkgray;
+    border-top: 2px solid darkgray
+}
