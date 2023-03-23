@@ -1,3 +1,5 @@
+@media (min-width: 768px) {
+/* style to main body */
 body {
     margin: 1vh 20vh;
     padding: 0;
@@ -6,7 +8,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
   }
-  
+  /* style the container */
   .container {
     background-color: rgb(49, 109, 187);
     height: 45%;
@@ -15,6 +17,7 @@ body {
     width: 45%;
     position: absolute;
   }
+  /* styled the inner container with the flex box  */
   .inner-container {
     display: flex;
     flex-direction: column;
@@ -27,22 +30,22 @@ body {
     height: 40vh;
     position: relative;
   }
-  
+  /* styles top bar  */
   .top-bar {
     margin: -5vh -7vh;
   }
-  
+  /* styled the highscores class */
   .highscores {
     float: left;
     margin: 20px;
   }
-  
+  /* styles timerstyle class */
   .timerstyle {
     float: right;
     margin: 20px;
     font-weight: bold;
   }
-  
+  /* styled main content */
   main {
     margin-top: 1.5rem;
     padding: 1.5rem;
@@ -50,14 +53,14 @@ body {
     flex-direction: column;
     justify-content: center;
   }
-  
+  /* styled the header */
   header {
     font-size: 36px;
     font-weight: bold;
     display: flex;
     justify-content: center;
   }
-  
+  /* styled paragraph of the main */
   main p {
     font-size: 20px;
     line-height: 2em;
@@ -65,6 +68,7 @@ body {
     display: flex;
     justify-content: center;  
   }
+  /* styled the button */
   .quiz-button {
     font-size: 26px;
     background-color: black;
@@ -81,11 +85,12 @@ body {
     align-items: center;
     margin-top: 2rem;
   }
-  
+  /* styled the button hover */
   .quiz-button:hover {
     background-color: rgb(49, 109, 187);
     color: black;
 }
+/* styled the id content button  */
 #content button {
     display: block;
     margin: 10px 10px;
@@ -102,3 +107,4 @@ body {
     width: 200px;
 }
 
+}
